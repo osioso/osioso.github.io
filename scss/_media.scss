@@ -1,0 +1,150 @@
+@media screen and (max-width: 768px) {
+    body.lock{
+        overflow: hidden;
+    }
+    .header_body{
+        height: 50px;
+    }
+    .header_logo{
+        img{
+            width: 75%;
+        }
+    }
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        &:before {
+            content: "";
+            top: 0;
+            background-color: #000;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            transition: all .5s ease;
+        }
+        &:after {
+            content: "";
+            bottom: 0;
+            background-color: #000;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            transition: all .5s ease;
+        }
+        span{
+            position: absolute;
+            background-color: #000;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            top: 9px;
+            transition: all .5s ease;
+        }
+    }
+    .top_nav{
+        position: fixed;
+        display: block;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #F5F5F6;
+        overflow: auto;
+        transition: all .5s ease;
+    }
+    .top_nav.active{
+        top: 0;
+    }
+    
+    .header_list{
+        display: block;
+        text-align: center;
+        margin-top: 80px;
+        li{
+            margin-bottom: 80px;
+        }
+    }
+    .iphone{
+        margin-top: 50px;
+    }
+    .header_right{
+        width: 205px;
+        margin: 0 auto;
+    }
+    .goals_item{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .goals{
+        display: block;
+    }
+    .goal_title{
+        h2{
+            font-size: 36px;
+            font-family: "GraphikBold";
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .iphone{
+        padding: 0;
+        height: 100%;
+        margin-top: 50px;
+        padding-bottom: 46px;
+        background: #F5F5F6;
+    }
+    .offer{
+        max-width: 100%;
+        h1{
+            font-size: 36px;
+            font-family: "GraphikBold";
+        }
+        p{
+            font-size: 18px;
+            background-color: #5D3DE3;
+            width: 264px;
+            text-align: center;
+            color: #fff;
+            padding-bottom: 5px;
+            margin-top: 23px;
+        }
+    }
+    .offer_btn{
+        width: 100%;
+        padding: 18px 24px;
+        margin: 0 auto;
+        margin-top: 85px;
+        text-align: center;
+    }
+    .iphone_mob {
+        height: 442px;
+        width: 100%;
+        background: url(../img/mob_iphone.png) no-repeat center/cover;
+    }
+    .begin_text{
+        h2{
+            font-size: 36px;
+            font-family: "GraphikBold";
+        }
+    }
+    .begin_training {
+        background: url(../img/begin_mob.jpg) no-repeat center / cover;
+        color: #fff;
+        border-radius: 0px;
+        padding: 0;
+        height: 900px;
+    }
+    .training_btn{
+        display: none;
+    }
+    .training_sup{
+        padding-top: 28px;
+    }
+}

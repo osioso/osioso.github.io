@@ -1,0 +1,33 @@
+.goal{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.goal_title{
+    h2{
+        font-size: 48px;
+        font-family: "GraphikBold";
+    }
+    margin-bottom: 60px;
+}
+.goals_item{
+    background: #F5F5F6;
+    border-radius: 6px;
+    width: 240px;
+    padding: 20px;
+    img{
+        margin-bottom: 26px;
+    }
+}
+.goals_text{
+    p{
+        font-size: 14px;
+    }
+    h3{
+        margin-bottom: 26px;
+        font-family: "GraphikBold";
+    }
+}
+.goals{
+    display: flex;
+    justify-content: space-between;
+}

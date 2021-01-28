@@ -1,0 +1,40 @@
+.iphone {
+    padding-top: 107px;
+    margin-top: 80px;
+    height: 590px;
+    background: url(../img/iphone.jpg) no-repeat center / cover;
+}
+.offer {
+    width: 680px;
+    h1 {
+        font-size: 80px;
+        font-family: "GraphikBold";
+    }
+    p {
+        font-size: 32px;
+        background-color: #5d3de3;
+        width: 500px;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 5px;
+        margin-top: 23px;
+    }
+}
+.offer_btn {
+    padding: 28px 54px;
+    background-color: #ffd700;
+    border-radius: 6px;
+    display: block;
+    margin-top: 111px;
+    width: 320px;
+    transition: all .5s ease;
+    &:hover{
+        background: #0B0B0B;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+
+.offer_mob {
+    display: none;
+}
