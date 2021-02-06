@@ -174,4 +174,13 @@
     .invest_title h3 {
         font-size: 32px;
     }
+    .other_item{
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 1171px){
+    .other_item{
+        width: 100%;
+    }
 }

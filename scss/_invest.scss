@@ -1,0 +1,44 @@
+.invest {
+    background: url(../img/prog.jpg) no-repeat center / cover;
+    color: #000;
+    padding-top: 51px;
+    padding-left: 100px;
+    padding-bottom: 65px;
+    border-radius: 6px;
+}
+
+.invest_price {
+    background-color: #5939e1;
+    margin-right: 22px;
+    padding: 15px 33px;
+    border-radius: 6px;
+    color: #fff;
+}
+.invest_name {
+    color: #696969;
+}
+.invest_btn {
+    padding: 26px 39px;
+    text-align: center;
+    background: #ffd700;
+    border-radius: 6px;
+    color: #000000;
+    display: block;
+    width: 290px;
+    transition: all 0.5s ease;
+    &:hover {
+        background: #0b0b0b;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+.invest_title{
+    h3 {
+        font-size: 48px;
+        font-family: "GraphikBold";
+    }
+    span{
+        color: #5939E1;
+    }
+    margin-bottom: 31px;
+}

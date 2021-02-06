@@ -5,50 +5,51 @@
 @import "offer";
 @import "goal";
 @import "begin";
+@import "invest";
 
-.invest {
-    background: url(../img/prog.jpg) no-repeat center / cover;
-    color: #000;
-    padding-top: 51px;
-    padding-left: 100px;
-    padding-bottom: 65px;
+.other_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.other_item{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    width: 370px;
+    padding-left: 60px;
+    padding-top: 44px;
+    padding-bottom: 30px;
     border-radius: 6px;
+    background-color: #F5F5F6;
+}
+.other_sup{
+    display: flex;
+    align-items: center;
+    padding-bottom: 23px;
+}
+.other_number{
+    margin-right: 40px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #5D3DE3;
+}
+.other_name{
+    padding-bottom: 15px;
+    border-bottom: 1px solid transparent;
+}
+.other_title{
+    font-size: 30px;
+    font-family: "GraphikBold";
+    margin-bottom: 27px;
 }
 
-.invest_price {
-    background-color: #5939e1;
-    margin-right: 22px;
-    padding: 15px 33px;
-    border-radius: 6px;
-    color: #fff;
-}
-.invest_name {
-    color: #696969;
-}
-.invest_btn {
-    padding: 26px 39px;
+.other_btn{
     text-align: center;
-    background: #ffd700;
+    padding: 18px 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: "GraphikRegular";
+    width: 140px;
     border-radius: 6px;
-    color: #000000;
     display: block;
-    width: 290px;
-    transition: all 0.5s ease;
-    &:hover {
-        background: #0b0b0b;
-        cursor: pointer;
-        color: #fff;
-    }
-}
-.invest_title{
-    h3 {
-        font-size: 48px;
-        font-family: "GraphikBold";
-    }
-    span{
-        color: #5939E1;
-    }
-    margin-bottom: 31px;
 }
 
 @import "media";

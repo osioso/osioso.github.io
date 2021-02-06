@@ -397,6 +397,63 @@ p {
   color: #5939E1;
 }
 
+.other_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.other_item {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  width: 370px;
+  padding-left: 60px;
+  padding-top: 44px;
+  padding-bottom: 30px;
+  border-radius: 6px;
+  background-color: #F5F5F6;
+}
+
+.other_sup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 23px;
+}
+
+.other_number {
+  margin-right: 40px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #5D3DE3;
+}
+
+.other_name {
+  padding-bottom: 15px;
+  border-bottom: 1px solid transparent;
+}
+
+.other_title {
+  font-size: 30px;
+  font-family: "GraphikBold";
+  margin-bottom: 27px;
+}
+
+.other_btn {
+  text-align: center;
+  padding: 18px 20px;
+  background-color: #000;
+  color: #fff;
+  font-family: "GraphikRegular";
+  width: 140px;
+  border-radius: 6px;
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   body.lock {
     overflow: hidden;
@@ -566,6 +623,15 @@ p {
   }
   .invest_title h3 {
     font-size: 32px;
+  }
+  .other_item {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 1171px) {
+  .other_item {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
