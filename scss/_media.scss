@@ -139,12 +139,39 @@
         color: #fff;
         border-radius: 0px;
         padding: 0;
-        height: 900px;
+        height: 901px;
     }
     .training_btn{
-        display: none;
+        margin: 0 auto;
+        margin-top: 380px;
     }
     .training_sup{
         padding-top: 28px;
+    }
+
+    .invest{
+        background: url(../img/prog_mob.jpg) no-repeat center / cover;
+        border-radius: 0px;
+        padding: 0;
+        height: 901px;
+    }
+    .invest_btn{
+        margin: 0 auto;
+        margin-top: 350px;
+    }
+    .invest_title{
+        h3 {
+            font-size: 36px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    .invest_btn{
+        margin: 0 auto;
+        margin-top: 270px;
+    }
+    .invest_title h3 {
+        font-size: 32px;
     }
 }

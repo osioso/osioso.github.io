@@ -318,6 +318,10 @@ p {
   font-family: "GraphikBold";
 }
 
+.trining_title span {
+  color: #5939E1;
+}
+
 .training_text {
   line-height: 36px;
   margin-bottom: 55px;
@@ -325,6 +329,7 @@ p {
 
 .training_btn {
   padding: 26px 39px;
+  text-align: center;
   background: #ffd700;
   border-radius: 6px;
   color: #000000;
@@ -338,6 +343,58 @@ p {
   background: #0B0B0B;
   cursor: pointer;
   color: #fff;
+}
+
+.invest {
+  background: url(../img/prog.jpg) no-repeat center/cover;
+  color: #000;
+  padding-top: 51px;
+  padding-left: 100px;
+  padding-bottom: 65px;
+  border-radius: 6px;
+}
+
+.invest_price {
+  background-color: #5939e1;
+  margin-right: 22px;
+  padding: 15px 33px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.invest_name {
+  color: #696969;
+}
+
+.invest_btn {
+  padding: 26px 39px;
+  text-align: center;
+  background: #ffd700;
+  border-radius: 6px;
+  color: #000000;
+  display: block;
+  width: 290px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.invest_btn:hover {
+  background: #0b0b0b;
+  cursor: pointer;
+  color: #fff;
+}
+
+.invest_title {
+  margin-bottom: 31px;
+}
+
+.invest_title h3 {
+  font-size: 48px;
+  font-family: "GraphikBold";
+}
+
+.invest_title span {
+  color: #5939E1;
 }
 
 @media screen and (max-width: 768px) {
@@ -478,13 +535,37 @@ p {
     color: #fff;
     border-radius: 0px;
     padding: 0;
-    height: 900px;
+    height: 901px;
   }
   .training_btn {
-    display: none;
+    margin: 0 auto;
+    margin-top: 380px;
   }
   .training_sup {
     padding-top: 28px;
+  }
+  .invest {
+    background: url(../img/prog_mob.jpg) no-repeat center/cover;
+    border-radius: 0px;
+    padding: 0;
+    height: 901px;
+  }
+  .invest_btn {
+    margin: 0 auto;
+    margin-top: 350px;
+  }
+  .invest_title h3 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .invest_btn {
+    margin: 0 auto;
+    margin-top: 270px;
+  }
+  .invest_title h3 {
+    font-size: 32px;
   }
 }
 /*# sourceMappingURL=style.css.map */
